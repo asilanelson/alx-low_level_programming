@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
- * main 
- * lower case
- * return
+ * main - Program entry point
+ *
+ * Return: 0 on sucess. Error code otherwise
  */
 int main(void)
 {
 	char a = 'a';
 	int n = 0;
 
-	while (n < 26)
+	while (n  < 26)
 	{
-	      putchar(a);
-	      a++;
-	      n++;
+
+		putchar(a);
+		a++;
+		n++;
 	}
 	putchar('\n');
 	return (0);
