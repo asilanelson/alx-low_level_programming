@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Prints the alphabet except the letters q and e.
+ *
+ * Return: Always 0 (Success)
+ **/
 int main(void)
 {
 	char ch = 'a';
@@ -12,38 +17,5 @@ int main(void)
 			ch++;
 		}
 		putchar('\n');
-
-	return (0);
-}
-#include <stdio.h>
-
-int main(void)
-{
-
-	for (char ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-	}
-	putchar('\n');
-}
-
-int main(void)
-{
-
-	for (char ch = 'a'; ch <= 'z'; ch++)
-
-	{	
-
-
-		if (ch == 'e' || ch == 'q')
-			ch++;
-		putchar(ch);
-
-	}
-	putchar('\n');
-
 	return (0);
 }
