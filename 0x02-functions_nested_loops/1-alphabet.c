@@ -4,12 +4,15 @@
  * print_alphabet - prints the english alphabet in lower case
  *
  * Return: 0
- * */
+ */
 
-void main print_alphabet(void)
+void print_alphabet(void)
+
 {
-	char c = 'a';
-	int i;
-	while i < 26
-		{	
-	
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+		_putchar(x);
+
+	_putchar('\n');
+}
